@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0022E7CF1EF99C0800EA7925 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022E7CE1EF99C0800EA7925 /* GlobalVariables.swift */; };
+		0022E7D31EF99F0000EA7925 /* submitButton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022E7D21EF99F0000EA7925 /* submitButton.gif */; };
+		0022E7D51EF9A3E400EA7925 /* FinalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022E7D41EF9A3E400EA7925 /* FinalScreen.swift */; };
+		002C0DAF1EF45EDF007DEE77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DAE1EF45EDF007DEE77 /* AppDelegate.swift */; };
+		002C0DB11EF45EDF007DEE77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DB01EF45EDF007DEE77 /* ViewController.swift */; };
+		002C0DB41EF45EDF007DEE77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002C0DB21EF45EDF007DEE77 /* Main.storyboard */; };
+		002C0DB61EF45EDF007DEE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002C0DB51EF45EDF007DEE77 /* Assets.xcassets */; };
+		002C0DB91EF45EDF007DEE77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002C0DB71EF45EDF007DEE77 /* LaunchScreen.storyboard */; };
+		002C0DC41EF45EDF007DEE77 /* Wag_Around_MelroseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DC31EF45EDF007DEE77 /* Wag_Around_MelroseTests.swift */; };
+		002C0DCF1EF45EDF007DEE77 /* Wag_Around_MelroseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DCE1EF45EDF007DEE77 /* Wag_Around_MelroseUITests.swift */; };
+		002C0DDE1EF45FF2007DEE77 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DDD1EF45FF2007DEE77 /* MainView.swift */; };
+		002C0DE01EF4606F007DEE77 /* TimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DDF1EF4606F007DEE77 /* TimeSelector.swift */; };
+		002C0DE21EF46AE8007DEE77 /* DogGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DE11EF46AE8007DEE77 /* DogGraphic.swift */; };
+		002C0DE41EF46B0A007DEE77 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 002C0DE31EF46B0A007DEE77 /* dog.png */; };
+		003E36411EF9F8150020DB27 /* SubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E36401EF9F8150020DB27 /* SubmitView.swift */; };
+		003E36431EF9FC150020DB27 /* CheckBoxScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E36421EF9FC150020DB27 /* CheckBoxScreen.swift */; };
+		003E36451EF9FC720020DB27 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E36441EF9FC720020DB27 /* CheckBox.swift */; };
+		003E36481EF9FD020020DB27 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 003E36461EF9FD020020DB27 /* checked.png */; };
+		003E36491EF9FD020020DB27 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 003E36471EF9FD020020DB27 /* unchecked.png */; };
+		003E364B1EFA0BB60020DB27 /* PriceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E364A1EFA0BB60020DB27 /* PriceLoader.swift */; };
+		004F47BC1EF8630000E9AE06 /* PersonalInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47BB1EF8630000E9AE06 /* PersonalInfoScreen.swift */; };
+		004F47BE1EF863BC00E9AE06 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47BD1EF863BC00E9AE06 /* StartButton.swift */; };
+		004F47C01EF8648300E9AE06 /* TextDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47BF1EF8648300E9AE06 /* TextDrawing.swift */; };
+		004F47C21EF869DC00E9AE06 /* ContinueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47C11EF869DC00E9AE06 /* ContinueButton.swift */; };
+		004F47C51EF86B5200E9AE06 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47C41EF86B5200E9AE06 /* BackButton.swift */; };
+		004F47C81EF8747F00E9AE06 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 004F47C61EF8747F00E9AE06 /* backButton.png */; };
+		004F47C91EF8747F00E9AE06 /* continueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 004F47C71EF8747F00E9AE06 /* continueButton.png */; };
+		004F47CD1EF878DB00E9AE06 /* InfoLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47CC1EF878DB00E9AE06 /* InfoLine.swift */; };
+		004F47CF1EF880EE00E9AE06 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47CE1EF880EE00E9AE06 /* SubmitButton.swift */; };
+		004F47E41EF886E900E9AE06 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47E11EF886E900E9AE06 /* SwiftyGifManager.swift */; };
+		004F47E51EF886E900E9AE06 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47E21EF886E900E9AE06 /* UIImage+SwiftyGif.swift */; };
+		004F47E61EF886E900E9AE06 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47E31EF886E900E9AE06 /* UIImageView+SwiftyGif.swift */; };
+		00DFE54F1F01A27500F616FD /* NoInternetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */; };
+		00DFE5511F01A62500F616FD /* OldVersionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE5501F01A62500F616FD /* OldVersionScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002C0DC01EF45EDF007DEE77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002C0DA31EF45EDF007DEE77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002C0DAA1EF45EDF007DEE77;
+			remoteInfo = "Wag Around Melrose";
+		};
+		002C0DCB1EF45EDF007DEE77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002C0DA31EF45EDF007DEE77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002C0DAA1EF45EDF007DEE77;
+			remoteInfo = "Wag Around Melrose";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0022E7CE1EF99C0800EA7925 /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		0022E7D21EF99F0000EA7925 /* submitButton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = submitButton.gif; sourceTree = "<group>"; };
+		0022E7D41EF9A3E400EA7925 /* FinalScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinalScreen.swift; path = ImportantObjects/FinalScreen.swift; sourceTree = "<group>"; };
+		002C0DAB1EF45EDF007DEE77 /* Wag Around Melrose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wag Around Melrose.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002C0DAE1EF45EDF007DEE77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		002C0DB01EF45EDF007DEE77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		002C0DB31EF45EDF007DEE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		002C0DB51EF45EDF007DEE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		002C0DB81EF45EDF007DEE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		002C0DBA1EF45EDF007DEE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002C0DBF1EF45EDF007DEE77 /* Wag Around MelroseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wag Around MelroseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002C0DC31EF45EDF007DEE77 /* Wag_Around_MelroseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wag_Around_MelroseTests.swift; sourceTree = "<group>"; };
+		002C0DC51EF45EDF007DEE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002C0DCA1EF45EDF007DEE77 /* Wag Around MelroseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wag Around MelroseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002C0DCE1EF45EDF007DEE77 /* Wag_Around_MelroseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wag_Around_MelroseUITests.swift; sourceTree = "<group>"; };
+		002C0DD01EF45EDF007DEE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002C0DDD1EF45FF2007DEE77 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = MainView/MainView.swift; sourceTree = "<group>"; };
+		002C0DDF1EF4606F007DEE77 /* TimeSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSelector.swift; sourceTree = "<group>"; };
+		002C0DE11EF46AE8007DEE77 /* DogGraphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogGraphic.swift; sourceTree = "<group>"; };
+		002C0DE31EF46B0A007DEE77 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		003E36401EF9F8150020DB27 /* SubmitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitView.swift; path = ImportantObjects/SubmitView.swift; sourceTree = "<group>"; };
+		003E36421EF9FC150020DB27 /* CheckBoxScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckBoxScreen.swift; path = ImportantObjects/CheckBoxScreen.swift; sourceTree = "<group>"; };
+		003E36441EF9FC720020DB27 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckBox.swift; path = ImportantObjects/CheckBox.swift; sourceTree = "<group>"; };
+		003E36461EF9FD020020DB27 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		003E36471EF9FD020020DB27 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		003E364A1EFA0BB60020DB27 /* PriceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriceLoader.swift; path = ImportantObjects/PriceLoader.swift; sourceTree = "<group>"; };
+		004F47BB1EF8630000E9AE06 /* PersonalInfoScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonalInfoScreen.swift; path = ImportantObjects/PersonalInfoScreen.swift; sourceTree = "<group>"; };
+		004F47BD1EF863BC00E9AE06 /* StartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartButton.swift; path = ImportantObjects/StartButton.swift; sourceTree = "<group>"; };
+		004F47BF1EF8648300E9AE06 /* TextDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDrawing.swift; sourceTree = "<group>"; };
+		004F47C11EF869DC00E9AE06 /* ContinueButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContinueButton.swift; path = ImportantObjects/ContinueButton.swift; sourceTree = "<group>"; };
+		004F47C41EF86B5200E9AE06 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackButton.swift; path = TransitionButtons/BackButton.swift; sourceTree = "<group>"; };
+		004F47C61EF8747F00E9AE06 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		004F47C71EF8747F00E9AE06 /* continueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continueButton.png; sourceTree = "<group>"; };
+		004F47CC1EF878DB00E9AE06 /* InfoLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoLine.swift; path = ImportantObjects/InfoLine.swift; sourceTree = "<group>"; };
+		004F47CE1EF880EE00E9AE06 /* SubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitButton.swift; path = ImportantObjects/SubmitButton.swift; sourceTree = "<group>"; };
+		004F47E11EF886E900E9AE06 /* SwiftyGifManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGifManager.swift; sourceTree = "<group>"; };
+		004F47E21EF886E900E9AE06 /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		004F47E31EF886E900E9AE06 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoInternetScreen.swift; path = ImportantObjects/NoInternetScreen.swift; sourceTree = "<group>"; };
+		00DFE5501F01A62500F616FD /* OldVersionScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldVersionScreen.swift; path = ImportantObjects/OldVersionScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002C0DA81EF45EDF007DEE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002C0DBC1EF45EDF007DEE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002C0DC71EF45EDF007DEE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002C0DA21EF45EDF007DEE77 = {
+			isa = PBXGroup;
+			children = (
+				002C0DAD1EF45EDF007DEE77 /* Wag Around Melrose */,
+				002C0DC21EF45EDF007DEE77 /* Wag Around MelroseTests */,
+				002C0DCD1EF45EDF007DEE77 /* Wag Around MelroseUITests */,
+				002C0DAC1EF45EDF007DEE77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		002C0DAC1EF45EDF007DEE77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002C0DAB1EF45EDF007DEE77 /* Wag Around Melrose.app */,
+				002C0DBF1EF45EDF007DEE77 /* Wag Around MelroseTests.xctest */,
+				002C0DCA1EF45EDF007DEE77 /* Wag Around MelroseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		002C0DAD1EF45EDF007DEE77 /* Wag Around Melrose */ = {
+			isa = PBXGroup;
+			children = (
+				004F47DA1EF886D000E9AE06 /* SwiftyGif */,
+				004F47CA1EF8748500E9AE06 /* Images */,
+				004F47C31EF86B3200E9AE06 /* TransitionButtons */,
+				004F47BA1EF862C500E9AE06 /* ImportantObjects */,
+				002C0DDC1EF45F05007DEE77 /* MainView */,
+				002C0DAE1EF45EDF007DEE77 /* AppDelegate.swift */,
+				002C0DB01EF45EDF007DEE77 /* ViewController.swift */,
+				002C0DB21EF45EDF007DEE77 /* Main.storyboard */,
+				002C0DB51EF45EDF007DEE77 /* Assets.xcassets */,
+				002C0DB71EF45EDF007DEE77 /* LaunchScreen.storyboard */,
+				002C0DBA1EF45EDF007DEE77 /* Info.plist */,
+				0022E7CE1EF99C0800EA7925 /* GlobalVariables.swift */,
+			);
+			path = "Wag Around Melrose";
+			sourceTree = "<group>";
+		};
+		002C0DC21EF45EDF007DEE77 /* Wag Around MelroseTests */ = {
+			isa = PBXGroup;
+			children = (
+				002C0DC31EF45EDF007DEE77 /* Wag_Around_MelroseTests.swift */,
+				002C0DC51EF45EDF007DEE77 /* Info.plist */,
+			);
+			path = "Wag Around MelroseTests";
+			sourceTree = "<group>";
+		};
+		002C0DCD1EF45EDF007DEE77 /* Wag Around MelroseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				002C0DCE1EF45EDF007DEE77 /* Wag_Around_MelroseUITests.swift */,
+				002C0DD01EF45EDF007DEE77 /* Info.plist */,
+			);
+			path = "Wag Around MelroseUITests";
+			sourceTree = "<group>";
+		};
+		002C0DDC1EF45F05007DEE77 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				002C0DDD1EF45FF2007DEE77 /* MainView.swift */,
+				004F47BF1EF8648300E9AE06 /* TextDrawing.swift */,
+				003E364A1EFA0BB60020DB27 /* PriceLoader.swift */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		004F47BA1EF862C500E9AE06 /* ImportantObjects */ = {
+			isa = PBXGroup;
+			children = (
+				002C0DDF1EF4606F007DEE77 /* TimeSelector.swift */,
+				002C0DE11EF46AE8007DEE77 /* DogGraphic.swift */,
+				004F47BB1EF8630000E9AE06 /* PersonalInfoScreen.swift */,
+				004F47BD1EF863BC00E9AE06 /* StartButton.swift */,
+				004F47CC1EF878DB00E9AE06 /* InfoLine.swift */,
+				004F47CE1EF880EE00E9AE06 /* SubmitButton.swift */,
+				003E36401EF9F8150020DB27 /* SubmitView.swift */,
+				0022E7D41EF9A3E400EA7925 /* FinalScreen.swift */,
+				003E36421EF9FC150020DB27 /* CheckBoxScreen.swift */,
+				003E36441EF9FC720020DB27 /* CheckBox.swift */,
+				00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */,
+				00DFE5501F01A62500F616FD /* OldVersionScreen.swift */,
+			);
+			name = ImportantObjects;
+			sourceTree = "<group>";
+		};
+		004F47C31EF86B3200E9AE06 /* TransitionButtons */ = {
+			isa = PBXGroup;
+			children = (
+				004F47C11EF869DC00E9AE06 /* ContinueButton.swift */,
+				004F47C41EF86B5200E9AE06 /* BackButton.swift */,
+			);
+			name = TransitionButtons;
+			sourceTree = "<group>";
+		};
+		004F47CA1EF8748500E9AE06 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				003E36461EF9FD020020DB27 /* checked.png */,
+				003E36471EF9FD020020DB27 /* unchecked.png */,
+				0022E7D21EF99F0000EA7925 /* submitButton.gif */,
+				002C0DE31EF46B0A007DEE77 /* dog.png */,
+				004F47C61EF8747F00E9AE06 /* backButton.png */,
+				004F47C71EF8747F00E9AE06 /* continueButton.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		004F47DA1EF886D000E9AE06 /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				004F47E11EF886E900E9AE06 /* SwiftyGifManager.swift */,
+				004F47E21EF886E900E9AE06 /* UIImage+SwiftyGif.swift */,
+				004F47E31EF886E900E9AE06 /* UIImageView+SwiftyGif.swift */,
+			);
+			name = SwiftyGif;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		002C0DAA1EF45EDF007DEE77 /* Wag Around Melrose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002C0DD31EF45EDF007DEE77 /* Build configuration list for PBXNativeTarget "Wag Around Melrose" */;
+			buildPhases = (
+				002C0DA71EF45EDF007DEE77 /* Sources */,
+				002C0DA81EF45EDF007DEE77 /* Frameworks */,
+				002C0DA91EF45EDF007DEE77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wag Around Melrose";
+			productName = "Wag Around Melrose";
+			productReference = 002C0DAB1EF45EDF007DEE77 /* Wag Around Melrose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		002C0DBE1EF45EDF007DEE77 /* Wag Around MelroseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002C0DD61EF45EDF007DEE77 /* Build configuration list for PBXNativeTarget "Wag Around MelroseTests" */;
+			buildPhases = (
+				002C0DBB1EF45EDF007DEE77 /* Sources */,
+				002C0DBC1EF45EDF007DEE77 /* Frameworks */,
+				002C0DBD1EF45EDF007DEE77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002C0DC11EF45EDF007DEE77 /* PBXTargetDependency */,
+			);
+			name = "Wag Around MelroseTests";
+			productName = "Wag Around MelroseTests";
+			productReference = 002C0DBF1EF45EDF007DEE77 /* Wag Around MelroseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		002C0DC91EF45EDF007DEE77 /* Wag Around MelroseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002C0DD91EF45EDF007DEE77 /* Build configuration list for PBXNativeTarget "Wag Around MelroseUITests" */;
+			buildPhases = (
+				002C0DC61EF45EDF007DEE77 /* Sources */,
+				002C0DC71EF45EDF007DEE77 /* Frameworks */,
+				002C0DC81EF45EDF007DEE77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002C0DCC1EF45EDF007DEE77 /* PBXTargetDependency */,
+			);
+			name = "Wag Around MelroseUITests";
+			productName = "Wag Around MelroseUITests";
+			productReference = 002C0DCA1EF45EDF007DEE77 /* Wag Around MelroseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002C0DA31EF45EDF007DEE77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "RBradford Studios";
+				TargetAttributes = {
+					002C0DAA1EF45EDF007DEE77 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 637YQRHJ3C;
+						ProvisioningStyle = Automatic;
+					};
+					002C0DBE1EF45EDF007DEE77 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 637YQRHJ3C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 002C0DAA1EF45EDF007DEE77;
+					};
+					002C0DC91EF45EDF007DEE77 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 637YQRHJ3C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 002C0DAA1EF45EDF007DEE77;
+					};
+				};
+			};
+			buildConfigurationList = 002C0DA61EF45EDF007DEE77 /* Build configuration list for PBXProject "Wag Around Melrose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 002C0DA21EF45EDF007DEE77;
+			productRefGroup = 002C0DAC1EF45EDF007DEE77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002C0DAA1EF45EDF007DEE77 /* Wag Around Melrose */,
+				002C0DBE1EF45EDF007DEE77 /* Wag Around MelroseTests */,
+				002C0DC91EF45EDF007DEE77 /* Wag Around MelroseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002C0DA91EF45EDF007DEE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002C0DE41EF46B0A007DEE77 /* dog.png in Resources */,
+				002C0DB91EF45EDF007DEE77 /* LaunchScreen.storyboard in Resources */,
+				0022E7D31EF99F0000EA7925 /* submitButton.gif in Resources */,
+				004F47C81EF8747F00E9AE06 /* backButton.png in Resources */,
+				002C0DB61EF45EDF007DEE77 /* Assets.xcassets in Resources */,
+				003E36481EF9FD020020DB27 /* checked.png in Resources */,
+				004F47C91EF8747F00E9AE06 /* continueButton.png in Resources */,
+				003E36491EF9FD020020DB27 /* unchecked.png in Resources */,
+				002C0DB41EF45EDF007DEE77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002C0DBD1EF45EDF007DEE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002C0DC81EF45EDF007DEE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002C0DA71EF45EDF007DEE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003E36411EF9F8150020DB27 /* SubmitView.swift in Sources */,
+				00DFE54F1F01A27500F616FD /* NoInternetScreen.swift in Sources */,
+				004F47E41EF886E900E9AE06 /* SwiftyGifManager.swift in Sources */,
+				002C0DE21EF46AE8007DEE77 /* DogGraphic.swift in Sources */,
+				004F47CF1EF880EE00E9AE06 /* SubmitButton.swift in Sources */,
+				003E36451EF9FC720020DB27 /* CheckBox.swift in Sources */,
+				004F47CD1EF878DB00E9AE06 /* InfoLine.swift in Sources */,
+				004F47E61EF886E900E9AE06 /* UIImageView+SwiftyGif.swift in Sources */,
+				003E364B1EFA0BB60020DB27 /* PriceLoader.swift in Sources */,
+				004F47BC1EF8630000E9AE06 /* PersonalInfoScreen.swift in Sources */,
+				002C0DB11EF45EDF007DEE77 /* ViewController.swift in Sources */,
+				002C0DE01EF4606F007DEE77 /* TimeSelector.swift in Sources */,
+				004F47C51EF86B5200E9AE06 /* BackButton.swift in Sources */,
+				004F47E51EF886E900E9AE06 /* UIImage+SwiftyGif.swift in Sources */,
+				0022E7CF1EF99C0800EA7925 /* GlobalVariables.swift in Sources */,
+				002C0DDE1EF45FF2007DEE77 /* MainView.swift in Sources */,
+				004F47C01EF8648300E9AE06 /* TextDrawing.swift in Sources */,
+				004F47C21EF869DC00E9AE06 /* ContinueButton.swift in Sources */,
+				003E36431EF9FC150020DB27 /* CheckBoxScreen.swift in Sources */,
+				002C0DAF1EF45EDF007DEE77 /* AppDelegate.swift in Sources */,
+				0022E7D51EF9A3E400EA7925 /* FinalScreen.swift in Sources */,
+				00DFE5511F01A62500F616FD /* OldVersionScreen.swift in Sources */,
+				004F47BE1EF863BC00E9AE06 /* StartButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002C0DBB1EF45EDF007DEE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002C0DC41EF45EDF007DEE77 /* Wag_Around_MelroseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002C0DC61EF45EDF007DEE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002C0DCF1EF45EDF007DEE77 /* Wag_Around_MelroseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002C0DC11EF45EDF007DEE77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002C0DAA1EF45EDF007DEE77 /* Wag Around Melrose */;
+			targetProxy = 002C0DC01EF45EDF007DEE77 /* PBXContainerItemProxy */;
+		};
+		002C0DCC1EF45EDF007DEE77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002C0DAA1EF45EDF007DEE77 /* Wag Around Melrose */;
+			targetProxy = 002C0DCB1EF45EDF007DEE77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		002C0DB21EF45EDF007DEE77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002C0DB31EF45EDF007DEE77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		002C0DB71EF45EDF007DEE77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002C0DB81EF45EDF007DEE77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		002C0DD11EF45EDF007DEE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		002C0DD21EF45EDF007DEE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		002C0DD41EF45EDF007DEE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 637YQRHJ3C;
+				INFOPLIST_FILE = "Wag Around Melrose/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.thaumavor.rbradford.WAM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		002C0DD51EF45EDF007DEE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 637YQRHJ3C;
+				INFOPLIST_FILE = "Wag Around Melrose/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.thaumavor.rbradford.WAM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		002C0DD71EF45EDF007DEE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 637YQRHJ3C;
+				INFOPLIST_FILE = "Wag Around MelroseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.thaumavor.rbradford.Wag-Around-MelroseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wag Around Melrose.app/Wag Around Melrose";
+			};
+			name = Debug;
+		};
+		002C0DD81EF45EDF007DEE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 637YQRHJ3C;
+				INFOPLIST_FILE = "Wag Around MelroseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.thaumavor.rbradford.Wag-Around-MelroseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wag Around Melrose.app/Wag Around Melrose";
+			};
+			name = Release;
+		};
+		002C0DDA1EF45EDF007DEE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 637YQRHJ3C;
+				INFOPLIST_FILE = "Wag Around MelroseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.thaumavor.rbradford.Wag-Around-MelroseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Wag Around Melrose";
+			};
+			name = Debug;
+		};
+		002C0DDB1EF45EDF007DEE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 637YQRHJ3C;
+				INFOPLIST_FILE = "Wag Around MelroseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.thaumavor.rbradford.Wag-Around-MelroseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Wag Around Melrose";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002C0DA61EF45EDF007DEE77 /* Build configuration list for PBXProject "Wag Around Melrose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002C0DD11EF45EDF007DEE77 /* Debug */,
+				002C0DD21EF45EDF007DEE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002C0DD31EF45EDF007DEE77 /* Build configuration list for PBXNativeTarget "Wag Around Melrose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002C0DD41EF45EDF007DEE77 /* Debug */,
+				002C0DD51EF45EDF007DEE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002C0DD61EF45EDF007DEE77 /* Build configuration list for PBXNativeTarget "Wag Around MelroseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002C0DD71EF45EDF007DEE77 /* Debug */,
+				002C0DD81EF45EDF007DEE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002C0DD91EF45EDF007DEE77 /* Build configuration list for PBXNativeTarget "Wag Around MelroseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002C0DDA1EF45EDF007DEE77 /* Debug */,
+				002C0DDB1EF45EDF007DEE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002C0DA31EF45EDF007DEE77 /* Project object */;
+}
