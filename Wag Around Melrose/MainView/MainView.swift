@@ -238,21 +238,19 @@ public class MainView: UIView {
 		postString += "&length=" + String(checkBoxes.getLength())
 		print(postString)
 		
-		var request = URLRequest(url: URL(string: "https://rbradford.thaumavor.io/iOS_Programs/Wag_Around_Melrose/recieveWalk2.php")!)
+		var request = URLRequest(url: URL(string: "https://rbradford.thaumavor.io/iOS_Programs/Wag_Around_Melrose/recieveWalk.php")!)
 		request.httpMethod = "POST"
 		
 		request.httpBody = postString.data(using: .utf8)
 		let task = URLSession.shared.dataTask(with: request) { data, response, error in
 			guard let _ = data, error == nil else {
 				print("error=\(String(describing: error))")
-				self.slideDownNoInternetScreen()
 				return
 			}
 			
 			if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {
 				print("statusCode should be 200, but is \(httpStatus.statusCode)")
 				print("response = \(String(describing: response))")
-				self.slideDownNoInternetScreen()
 				return
 			}
 			let responseString = String(data: data!, encoding: .utf8)
@@ -288,15 +286,6 @@ public class MainView: UIView {
 	func updateSubmitText() {
 		submitView.setCost(cost: checkBoxes.getCost())
 		submitView.setLength(length: checkBoxes.getLength())
-	}
-	
-	func slideDownNoInternetScreen() {
-		let noInternetScreen = NoInternetScreen(frame: CGRect(x: 0, y: -self.frame.height, width: self.frame.width, height: self.frame.height))
-		self.addSubview(noInternetScreen)
-		
-		UIView.animate(withDuration: 0.5, animations: {
-			noInternetScreen.frame.origin.y += self.frame.height
-		})
 	}
 	
 }
