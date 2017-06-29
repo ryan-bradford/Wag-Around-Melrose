@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-open class DogGraphic : UIView {
+class DogGraphic : UIView {
     
     var toAdd: UIImage?
 

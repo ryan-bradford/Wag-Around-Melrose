@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0022E7CF1EF99C0800EA7925 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022E7CE1EF99C0800EA7925 /* GlobalVariables.swift */; };
-		0022E7D31EF99F0000EA7925 /* submitButton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022E7D21EF99F0000EA7925 /* submitButton.gif */; };
-		0022E7D51EF9A3E400EA7925 /* FinalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022E7D41EF9A3E400EA7925 /* FinalScreen.swift */; };
-		002C0DAF1EF45EDF007DEE77 /* TextDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DAE1EF45EDF007DEE77 /* TextDrawing.swift */; };
-		002C0DB11EF45EDF007DEE77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DB01EF45EDF007DEE77 /* ViewController.swift */; };
 		002C0DB41EF45EDF007DEE77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002C0DB21EF45EDF007DEE77 /* Main.storyboard */; };
 		002C0DB61EF45EDF007DEE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002C0DB51EF45EDF007DEE77 /* Assets.xcassets */; };
 		002C0DB91EF45EDF007DEE77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002C0DB71EF45EDF007DEE77 /* LaunchScreen.storyboard */; };
 		002C0DC41EF45EDF007DEE77 /* Wag_Around_MelroseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DC31EF45EDF007DEE77 /* Wag_Around_MelroseTests.swift */; };
 		002C0DCF1EF45EDF007DEE77 /* Wag_Around_MelroseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DCE1EF45EDF007DEE77 /* Wag_Around_MelroseUITests.swift */; };
-		002C0DDE1EF45FF2007DEE77 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DDD1EF45FF2007DEE77 /* MainView.swift */; };
-		002C0DE01EF4606F007DEE77 /* TimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DDF1EF4606F007DEE77 /* TimeSelector.swift */; };
-		002C0DE41EF46B0A007DEE77 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 002C0DE31EF46B0A007DEE77 /* dog.png */; };
-		003E36411EF9F8150020DB27 /* SubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E36401EF9F8150020DB27 /* SubmitView.swift */; };
-		003E36431EF9FC150020DB27 /* CheckBoxScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E36421EF9FC150020DB27 /* CheckBoxScreen.swift */; };
-		003E36451EF9FC720020DB27 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E36441EF9FC720020DB27 /* CheckBox.swift */; };
-		003E36481EF9FD020020DB27 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 003E36461EF9FD020020DB27 /* checked.png */; };
-		003E36491EF9FD020020DB27 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 003E36471EF9FD020020DB27 /* unchecked.png */; };
-		003E364B1EFA0BB60020DB27 /* PriceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E364A1EFA0BB60020DB27 /* PriceLoader.swift */; };
-		004F47BC1EF8630000E9AE06 /* PersonalInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47BB1EF8630000E9AE06 /* PersonalInfoScreen.swift */; };
-		004F47BE1EF863BC00E9AE06 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47BD1EF863BC00E9AE06 /* StartButton.swift */; };
-		004F47C01EF8648300E9AE06 /* TextDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47BF1EF8648300E9AE06 /* TextDrawing.swift */; };
-		004F47C21EF869DC00E9AE06 /* ContinueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47C11EF869DC00E9AE06 /* ContinueButton.swift */; };
-		004F47C51EF86B5200E9AE06 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47C41EF86B5200E9AE06 /* BackButton.swift */; };
-		004F47C81EF8747F00E9AE06 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 004F47C61EF8747F00E9AE06 /* backButton.png */; };
-		004F47C91EF8747F00E9AE06 /* continueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 004F47C71EF8747F00E9AE06 /* continueButton.png */; };
-		004F47CD1EF878DB00E9AE06 /* InfoLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47CC1EF878DB00E9AE06 /* InfoLine.swift */; };
-		004F47CF1EF880EE00E9AE06 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47CE1EF880EE00E9AE06 /* SubmitButton.swift */; };
-		004F47E41EF886E900E9AE06 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47E11EF886E900E9AE06 /* SwiftyGifManager.swift */; };
-		004F47E51EF886E900E9AE06 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47E21EF886E900E9AE06 /* UIImage+SwiftyGif.swift */; };
-		004F47E61EF886E900E9AE06 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47E31EF886E900E9AE06 /* UIImageView+SwiftyGif.swift */; };
-		0069D03E1F059B7C00B2DC8A /* DogGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D03D1F059B7C00B2DC8A /* DogGraphic.swift */; };
-		00DFE54F1F01A27500F616FD /* NoInternetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */; };
-		00DFE5511F01A62500F616FD /* OldVersionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE5501F01A62500F616FD /* OldVersionScreen.swift */; };
+		004077351F05A099004D14D8 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D04F1F059C6300B2DC8A /* SwiftyGifManager.swift */; };
+		004077361F05A099004D14D8 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0501F059C6300B2DC8A /* UIImage+SwiftyGif.swift */; };
+		004077371F05A099004D14D8 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0511F059C6300B2DC8A /* UIImageView+SwiftyGif.swift */; };
+		004077381F05A099004D14D8 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0461F059C4200B2DC8A /* CheckBox.swift */; };
+		004077391F05A099004D14D8 /* DogGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0481F059C5000B2DC8A /* DogGraphic.swift */; };
+		0040773A1F05A099004D14D8 /* InfoLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0491F059C5000B2DC8A /* InfoLine.swift */; };
+		0040773C1F05A099004D14D8 /* PriceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E364A1EFA0BB60020DB27 /* PriceLoader.swift */; };
+		0040773D1F05A099004D14D8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DDD1EF45FF2007DEE77 /* MainView.swift */; };
+		0040773E1F05A099004D14D8 /* OldVersionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE5501F01A62500F616FD /* OldVersionScreen.swift */; };
+		0040773F1F05A099004D14D8 /* NoInternetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */; };
+		004077401F05A099004D14D8 /* FinalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022E7D41EF9A3E400EA7925 /* FinalScreen.swift */; };
+		004077411F05A099004D14D8 /* SubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E36401EF9F8150020DB27 /* SubmitView.swift */; };
+		004077421F05A099004D14D8 /* CheckBoxScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E36421EF9FC150020DB27 /* CheckBoxScreen.swift */; };
+		004077431F05A099004D14D8 /* PersonalInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47BB1EF8630000E9AE06 /* PersonalInfoScreen.swift */; };
+		004077441F05A099004D14D8 /* TimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DDF1EF4606F007DEE77 /* TimeSelector.swift */; };
+		004077451F05A099004D14D8 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47CE1EF880EE00E9AE06 /* SubmitButton.swift */; };
+		004077461F05A099004D14D8 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47BD1EF863BC00E9AE06 /* StartButton.swift */; };
+		004077471F05A099004D14D8 /* ContinueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47C11EF869DC00E9AE06 /* ContinueButton.swift */; };
+		004077481F05A099004D14D8 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47C41EF86B5200E9AE06 /* BackButton.swift */; };
+		004077491F05A099004D14D8 /* TextDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DAE1EF45EDF007DEE77 /* TextDrawing.swift */; };
+		0040774A1F05A099004D14D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DB01EF45EDF007DEE77 /* ViewController.swift */; };
+		0040774B1F05A099004D14D8 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022E7CE1EF99C0800EA7925 /* GlobalVariables.swift */; };
+		0069D05C1F059C6E00B2DC8A /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0069D0561F059C6E00B2DC8A /* backButton.png */; };
+		0069D05D1F059C6E00B2DC8A /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0069D0571F059C6E00B2DC8A /* checked.png */; };
+		0069D05E1F059C6E00B2DC8A /* continueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0069D0581F059C6E00B2DC8A /* continueButton.png */; };
+		0069D05F1F059C6E00B2DC8A /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 0069D0591F059C6E00B2DC8A /* dog.png */; };
+		0069D0601F059C6E00B2DC8A /* submitButton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0069D05A1F059C6E00B2DC8A /* submitButton.gif */; };
+		0069D0611F059C6E00B2DC8A /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0069D05B1F059C6E00B2DC8A /* unchecked.png */; };
+		008F3BA11F05A1E90058CCB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F3BA01F05A1E90058CCB4 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,6 @@
 
 /* Begin PBXFileReference section */
 		0022E7CE1EF99C0800EA7925 /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
-		0022E7D21EF99F0000EA7925 /* submitButton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = submitButton.gif; path = "Wag Around Melrose/Graphics/Images/submitButton.gif"; sourceTree = "<group>"; };
 		0022E7D41EF9A3E400EA7925 /* FinalScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinalScreen.swift; path = ImportantObjects/FinalScreen.swift; sourceTree = "<group>"; };
 		002C0DAB1EF45EDF007DEE77 /* Wag Around Melrose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wag Around Melrose.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		002C0DAE1EF45EDF007DEE77 /* TextDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextDrawing.swift; path = Graphics/TextDrawing.swift; sourceTree = "<group>"; };
@@ -79,26 +78,28 @@
 		002C0DD01EF45EDF007DEE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		002C0DDD1EF45FF2007DEE77 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = MainView/MainView.swift; sourceTree = "<group>"; };
 		002C0DDF1EF4606F007DEE77 /* TimeSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSelector.swift; sourceTree = "<group>"; };
-		002C0DE31EF46B0A007DEE77 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog.png; path = "Wag Around Melrose/Graphics/Images/dog.png"; sourceTree = "<group>"; };
 		003E36401EF9F8150020DB27 /* SubmitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitView.swift; path = ImportantObjects/SubmitView.swift; sourceTree = "<group>"; };
 		003E36421EF9FC150020DB27 /* CheckBoxScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckBoxScreen.swift; path = ImportantObjects/CheckBoxScreen.swift; sourceTree = "<group>"; };
-		003E36441EF9FC720020DB27 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
-		003E36461EF9FD020020DB27 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = "Wag Around Melrose/Graphics/Images/checked.png"; sourceTree = "<group>"; };
-		003E36471EF9FD020020DB27 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked.png; path = "Wag Around Melrose/Graphics/Images/unchecked.png"; sourceTree = "<group>"; };
 		003E364A1EFA0BB60020DB27 /* PriceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriceLoader.swift; path = ImportantObjects/PriceLoader.swift; sourceTree = "<group>"; };
 		004F47BB1EF8630000E9AE06 /* PersonalInfoScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonalInfoScreen.swift; path = ImportantObjects/PersonalInfoScreen.swift; sourceTree = "<group>"; };
 		004F47BD1EF863BC00E9AE06 /* StartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartButton.swift; path = ImportantObjects/StartButton.swift; sourceTree = "<group>"; };
-		004F47BF1EF8648300E9AE06 /* TextDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDrawing.swift; sourceTree = "<group>"; };
 		004F47C11EF869DC00E9AE06 /* ContinueButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContinueButton.swift; path = ImportantObjects/ContinueButton.swift; sourceTree = "<group>"; };
 		004F47C41EF86B5200E9AE06 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackButton.swift; path = TransitionButtons/BackButton.swift; sourceTree = "<group>"; };
-		004F47C61EF8747F00E9AE06 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButton.png; path = "Wag Around Melrose/Graphics/Images/backButton.png"; sourceTree = "<group>"; };
-		004F47C71EF8747F00E9AE06 /* continueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = continueButton.png; path = "Wag Around Melrose/Graphics/Images/continueButton.png"; sourceTree = "<group>"; };
-		004F47CC1EF878DB00E9AE06 /* InfoLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoLine.swift; sourceTree = "<group>"; };
 		004F47CE1EF880EE00E9AE06 /* SubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitButton.swift; path = ImportantObjects/SubmitButton.swift; sourceTree = "<group>"; };
-		004F47E11EF886E900E9AE06 /* SwiftyGifManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = Graphics/SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
-		004F47E21EF886E900E9AE06 /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "Graphics/SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
-		004F47E31EF886E900E9AE06 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "Graphics/SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
-		0069D03D1F059B7C00B2DC8A /* DogGraphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogGraphic.swift; sourceTree = "<group>"; };
+		005A9E8A1F059F5700F92664 /* TextDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextDrawing.swift; path = Graphics/TextDrawing.swift; sourceTree = "<group>"; };
+		0069D0461F059C4200B2DC8A /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckBox.swift; path = Graphics/CheckBox.swift; sourceTree = "<group>"; };
+		0069D0481F059C5000B2DC8A /* DogGraphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DogGraphic.swift; path = Graphics/DogGraphic.swift; sourceTree = "<group>"; };
+		0069D0491F059C5000B2DC8A /* InfoLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoLine.swift; path = Graphics/InfoLine.swift; sourceTree = "<group>"; };
+		0069D04F1F059C6300B2DC8A /* SwiftyGifManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = Graphics/SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		0069D0501F059C6300B2DC8A /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "Graphics/SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		0069D0511F059C6300B2DC8A /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "Graphics/SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		0069D0561F059C6E00B2DC8A /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButton.png; path = Graphics/Images/backButton.png; sourceTree = "<group>"; };
+		0069D0571F059C6E00B2DC8A /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = Graphics/Images/checked.png; sourceTree = "<group>"; };
+		0069D0581F059C6E00B2DC8A /* continueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = continueButton.png; path = Graphics/Images/continueButton.png; sourceTree = "<group>"; };
+		0069D0591F059C6E00B2DC8A /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog.png; path = Graphics/Images/dog.png; sourceTree = "<group>"; };
+		0069D05A1F059C6E00B2DC8A /* submitButton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = submitButton.gif; path = Graphics/Images/submitButton.gif; sourceTree = "<group>"; };
+		0069D05B1F059C6E00B2DC8A /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked.png; path = Graphics/Images/unchecked.png; sourceTree = "<group>"; };
+		008F3BA01F05A1E90058CCB4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoInternetScreen.swift; path = ImportantObjects/NoInternetScreen.swift; sourceTree = "<group>"; };
 		00DFE5501F01A62500F616FD /* OldVersionScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldVersionScreen.swift; path = ImportantObjects/OldVersionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,19 +150,6 @@
 			name = GeneralInformation;
 			sourceTree = "<group>";
 		};
-		000E10661F05975800A86739 /* Graphics */ = {
-			isa = PBXGroup;
-			children = (
-				004F47BF1EF8648300E9AE06 /* TextDrawing.swift */,
-				003E36441EF9FC720020DB27 /* CheckBox.swift */,
-				004F47CC1EF878DB00E9AE06 /* InfoLine.swift */,
-				0069D03D1F059B7C00B2DC8A /* DogGraphic.swift */,
-				004F47DA1EF886D000E9AE06 /* SwiftyGif */,
-				004F47CA1EF8748500E9AE06 /* Images */,
-			);
-			path = Graphics;
-			sourceTree = "<group>";
-		};
 		000E10671F0597CE00A86739 /* ServerSide */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,14 +181,15 @@
 		002C0DAD1EF45EDF007DEE77 /* Wag Around Melrose */ = {
 			isa = PBXGroup;
 			children = (
+				0069D0451F059C2E00B2DC8A /* Graphics */,
 				000E10671F0597CE00A86739 /* ServerSide */,
 				002C0DDD1EF45FF2007DEE77 /* MainView.swift */,
-				000E10661F05975800A86739 /* Graphics */,
 				000E10651F05972F00A86739 /* GeneralInformation */,
 				000E10641F05971600A86739 /* UserInfo */,
 				004F47C31EF86B3200E9AE06 /* TransitionButtons */,
 				002C0DAE1EF45EDF007DEE77 /* TextDrawing.swift */,
 				002C0DB01EF45EDF007DEE77 /* ViewController.swift */,
+				008F3BA01F05A1E90058CCB4 /* AppDelegate.swift */,
 				002C0DB21EF45EDF007DEE77 /* Main.storyboard */,
 				002C0DB51EF45EDF007DEE77 /* Assets.xcassets */,
 				002C0DB71EF45EDF007DEE77 /* LaunchScreen.storyboard */,
@@ -239,29 +228,40 @@
 			name = TransitionButtons;
 			sourceTree = "<group>";
 		};
-		004F47CA1EF8748500E9AE06 /* Images */ = {
+		0069D0451F059C2E00B2DC8A /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				003E36461EF9FD020020DB27 /* checked.png */,
-				003E36471EF9FD020020DB27 /* unchecked.png */,
-				0022E7D21EF99F0000EA7925 /* submitButton.gif */,
-				002C0DE31EF46B0A007DEE77 /* dog.png */,
-				004F47C61EF8747F00E9AE06 /* backButton.png */,
-				004F47C71EF8747F00E9AE06 /* continueButton.png */,
+				0069D0551F059C6500B2DC8A /* Images */,
+				0069D04E1F059C5400B2DC8A /* SwiftyGif */,
+				0069D0461F059C4200B2DC8A /* CheckBox.swift */,
+				0069D0481F059C5000B2DC8A /* DogGraphic.swift */,
+				0069D0491F059C5000B2DC8A /* InfoLine.swift */,
+				005A9E8A1F059F5700F92664 /* TextDrawing.swift */,
 			);
-			name = Images;
-			path = Graphics/Images;
+			name = Graphics;
 			sourceTree = "<group>";
 		};
-		004F47DA1EF886D000E9AE06 /* SwiftyGif */ = {
+		0069D04E1F059C5400B2DC8A /* SwiftyGif */ = {
 			isa = PBXGroup;
 			children = (
-				004F47E11EF886E900E9AE06 /* SwiftyGifManager.swift */,
-				004F47E21EF886E900E9AE06 /* UIImage+SwiftyGif.swift */,
-				004F47E31EF886E900E9AE06 /* UIImageView+SwiftyGif.swift */,
+				0069D04F1F059C6300B2DC8A /* SwiftyGifManager.swift */,
+				0069D0501F059C6300B2DC8A /* UIImage+SwiftyGif.swift */,
+				0069D0511F059C6300B2DC8A /* UIImageView+SwiftyGif.swift */,
 			);
 			name = SwiftyGif;
-			path = Graphics/SwiftyGif;
+			sourceTree = "<group>";
+		};
+		0069D0551F059C6500B2DC8A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0069D0561F059C6E00B2DC8A /* backButton.png */,
+				0069D0571F059C6E00B2DC8A /* checked.png */,
+				0069D0581F059C6E00B2DC8A /* continueButton.png */,
+				0069D0591F059C6E00B2DC8A /* dog.png */,
+				0069D05A1F059C6E00B2DC8A /* submitButton.gif */,
+				0069D05B1F059C6E00B2DC8A /* unchecked.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,14 +374,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				002C0DE41EF46B0A007DEE77 /* dog.png in Resources */,
+				0069D05F1F059C6E00B2DC8A /* dog.png in Resources */,
+				0069D05D1F059C6E00B2DC8A /* checked.png in Resources */,
 				002C0DB91EF45EDF007DEE77 /* LaunchScreen.storyboard in Resources */,
-				0022E7D31EF99F0000EA7925 /* submitButton.gif in Resources */,
-				004F47C81EF8747F00E9AE06 /* backButton.png in Resources */,
 				002C0DB61EF45EDF007DEE77 /* Assets.xcassets in Resources */,
-				003E36481EF9FD020020DB27 /* checked.png in Resources */,
-				004F47C91EF8747F00E9AE06 /* continueButton.png in Resources */,
-				003E36491EF9FD020020DB27 /* unchecked.png in Resources */,
+				0069D0601F059C6E00B2DC8A /* submitButton.gif in Resources */,
+				0069D05C1F059C6E00B2DC8A /* backButton.png in Resources */,
+				0069D05E1F059C6E00B2DC8A /* continueButton.png in Resources */,
+				0069D0611F059C6E00B2DC8A /* unchecked.png in Resources */,
 				002C0DB41EF45EDF007DEE77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,29 +407,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003E36411EF9F8150020DB27 /* SubmitView.swift in Sources */,
-				00DFE54F1F01A27500F616FD /* NoInternetScreen.swift in Sources */,
-				004F47E41EF886E900E9AE06 /* SwiftyGifManager.swift in Sources */,
-				004F47CF1EF880EE00E9AE06 /* SubmitButton.swift in Sources */,
-				003E36451EF9FC720020DB27 /* CheckBox.swift in Sources */,
-				004F47CD1EF878DB00E9AE06 /* InfoLine.swift in Sources */,
-				004F47E61EF886E900E9AE06 /* UIImageView+SwiftyGif.swift in Sources */,
-				003E364B1EFA0BB60020DB27 /* PriceLoader.swift in Sources */,
-				004F47BC1EF8630000E9AE06 /* PersonalInfoScreen.swift in Sources */,
-				002C0DB11EF45EDF007DEE77 /* ViewController.swift in Sources */,
-				002C0DE01EF4606F007DEE77 /* TimeSelector.swift in Sources */,
-				004F47C51EF86B5200E9AE06 /* BackButton.swift in Sources */,
-				004F47E51EF886E900E9AE06 /* UIImage+SwiftyGif.swift in Sources */,
-				0022E7CF1EF99C0800EA7925 /* GlobalVariables.swift in Sources */,
-				002C0DDE1EF45FF2007DEE77 /* MainView.swift in Sources */,
-				004F47C01EF8648300E9AE06 /* TextDrawing.swift in Sources */,
-				004F47C21EF869DC00E9AE06 /* ContinueButton.swift in Sources */,
-				003E36431EF9FC150020DB27 /* CheckBoxScreen.swift in Sources */,
-				002C0DAF1EF45EDF007DEE77 /* TextDrawing.swift in Sources */,
-				0069D03E1F059B7C00B2DC8A /* DogGraphic.swift in Sources */,
-				0022E7D51EF9A3E400EA7925 /* FinalScreen.swift in Sources */,
-				00DFE5511F01A62500F616FD /* OldVersionScreen.swift in Sources */,
-				004F47BE1EF863BC00E9AE06 /* StartButton.swift in Sources */,
+				004077351F05A099004D14D8 /* SwiftyGifManager.swift in Sources */,
+				004077361F05A099004D14D8 /* UIImage+SwiftyGif.swift in Sources */,
+				004077371F05A099004D14D8 /* UIImageView+SwiftyGif.swift in Sources */,
+				004077381F05A099004D14D8 /* CheckBox.swift in Sources */,
+				004077391F05A099004D14D8 /* DogGraphic.swift in Sources */,
+				0040773A1F05A099004D14D8 /* InfoLine.swift in Sources */,
+				0040773C1F05A099004D14D8 /* PriceLoader.swift in Sources */,
+				0040773D1F05A099004D14D8 /* MainView.swift in Sources */,
+				0040773E1F05A099004D14D8 /* OldVersionScreen.swift in Sources */,
+				0040773F1F05A099004D14D8 /* NoInternetScreen.swift in Sources */,
+				004077401F05A099004D14D8 /* FinalScreen.swift in Sources */,
+				004077411F05A099004D14D8 /* SubmitView.swift in Sources */,
+				004077421F05A099004D14D8 /* CheckBoxScreen.swift in Sources */,
+				004077431F05A099004D14D8 /* PersonalInfoScreen.swift in Sources */,
+				004077441F05A099004D14D8 /* TimeSelector.swift in Sources */,
+				004077451F05A099004D14D8 /* SubmitButton.swift in Sources */,
+				004077461F05A099004D14D8 /* StartButton.swift in Sources */,
+				004077471F05A099004D14D8 /* ContinueButton.swift in Sources */,
+				004077481F05A099004D14D8 /* BackButton.swift in Sources */,
+				004077491F05A099004D14D8 /* TextDrawing.swift in Sources */,
+				0040774A1F05A099004D14D8 /* ViewController.swift in Sources */,
+				0040774B1F05A099004D14D8 /* GlobalVariables.swift in Sources */,
+				008F3BA11F05A1E90058CCB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +585,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 637YQRHJ3C;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Wag Around Melrose/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -599,6 +600,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 637YQRHJ3C;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Wag Around Melrose/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
