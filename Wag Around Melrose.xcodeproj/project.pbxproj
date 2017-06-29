@@ -12,35 +12,35 @@
 		002C0DB91EF45EDF007DEE77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002C0DB71EF45EDF007DEE77 /* LaunchScreen.storyboard */; };
 		002C0DC41EF45EDF007DEE77 /* Wag_Around_MelroseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DC31EF45EDF007DEE77 /* Wag_Around_MelroseTests.swift */; };
 		002C0DCF1EF45EDF007DEE77 /* Wag_Around_MelroseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DCE1EF45EDF007DEE77 /* Wag_Around_MelroseUITests.swift */; };
-		004077351F05A099004D14D8 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D04F1F059C6300B2DC8A /* SwiftyGifManager.swift */; };
-		004077361F05A099004D14D8 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0501F059C6300B2DC8A /* UIImage+SwiftyGif.swift */; };
-		004077371F05A099004D14D8 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0511F059C6300B2DC8A /* UIImageView+SwiftyGif.swift */; };
-		004077381F05A099004D14D8 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0461F059C4200B2DC8A /* CheckBox.swift */; };
-		004077391F05A099004D14D8 /* DogGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0481F059C5000B2DC8A /* DogGraphic.swift */; };
-		0040773A1F05A099004D14D8 /* InfoLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0491F059C5000B2DC8A /* InfoLine.swift */; };
-		0040773C1F05A099004D14D8 /* PriceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E364A1EFA0BB60020DB27 /* PriceLoader.swift */; };
-		0040773D1F05A099004D14D8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DDD1EF45FF2007DEE77 /* MainView.swift */; };
-		0040773E1F05A099004D14D8 /* OldVersionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE5501F01A62500F616FD /* OldVersionScreen.swift */; };
-		0040773F1F05A099004D14D8 /* NoInternetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */; };
-		004077401F05A099004D14D8 /* FinalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022E7D41EF9A3E400EA7925 /* FinalScreen.swift */; };
-		004077411F05A099004D14D8 /* SubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E36401EF9F8150020DB27 /* SubmitView.swift */; };
-		004077421F05A099004D14D8 /* CheckBoxScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E36421EF9FC150020DB27 /* CheckBoxScreen.swift */; };
-		004077431F05A099004D14D8 /* PersonalInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47BB1EF8630000E9AE06 /* PersonalInfoScreen.swift */; };
-		004077441F05A099004D14D8 /* TimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DDF1EF4606F007DEE77 /* TimeSelector.swift */; };
-		004077451F05A099004D14D8 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47CE1EF880EE00E9AE06 /* SubmitButton.swift */; };
-		004077461F05A099004D14D8 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47BD1EF863BC00E9AE06 /* StartButton.swift */; };
-		004077471F05A099004D14D8 /* ContinueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47C11EF869DC00E9AE06 /* ContinueButton.swift */; };
-		004077481F05A099004D14D8 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47C41EF86B5200E9AE06 /* BackButton.swift */; };
-		004077491F05A099004D14D8 /* TextDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DAE1EF45EDF007DEE77 /* TextDrawing.swift */; };
-		0040774A1F05A099004D14D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DB01EF45EDF007DEE77 /* ViewController.swift */; };
-		0040774B1F05A099004D14D8 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022E7CE1EF99C0800EA7925 /* GlobalVariables.swift */; };
 		0069D05C1F059C6E00B2DC8A /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0069D0561F059C6E00B2DC8A /* backButton.png */; };
 		0069D05D1F059C6E00B2DC8A /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0069D0571F059C6E00B2DC8A /* checked.png */; };
 		0069D05E1F059C6E00B2DC8A /* continueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0069D0581F059C6E00B2DC8A /* continueButton.png */; };
 		0069D05F1F059C6E00B2DC8A /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 0069D0591F059C6E00B2DC8A /* dog.png */; };
 		0069D0601F059C6E00B2DC8A /* submitButton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0069D05A1F059C6E00B2DC8A /* submitButton.gif */; };
 		0069D0611F059C6E00B2DC8A /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0069D05B1F059C6E00B2DC8A /* unchecked.png */; };
-		008F3BA11F05A1E90058CCB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F3BA01F05A1E90058CCB4 /* AppDelegate.swift */; };
+		008BB1871F05A3AA004D18A5 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D04F1F059C6300B2DC8A /* SwiftyGifManager.swift */; };
+		008BB1881F05A3AA004D18A5 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0501F059C6300B2DC8A /* UIImage+SwiftyGif.swift */; };
+		008BB1891F05A3AA004D18A5 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0511F059C6300B2DC8A /* UIImageView+SwiftyGif.swift */; };
+		008BB18A1F05A3AA004D18A5 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0461F059C4200B2DC8A /* CheckBox.swift */; };
+		008BB18B1F05A3AA004D18A5 /* DogGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0481F059C5000B2DC8A /* DogGraphic.swift */; };
+		008BB18C1F05A3AA004D18A5 /* InfoLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069D0491F059C5000B2DC8A /* InfoLine.swift */; };
+		008BB18D1F05A3AA004D18A5 /* TextDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008BB1851F05A37E004D18A5 /* TextDrawing.swift */; };
+		008BB18E1F05A3AA004D18A5 /* PriceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E364A1EFA0BB60020DB27 /* PriceLoader.swift */; };
+		008BB18F1F05A3AA004D18A5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DDD1EF45FF2007DEE77 /* MainView.swift */; };
+		008BB1901F05A3AA004D18A5 /* OldVersionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE5501F01A62500F616FD /* OldVersionScreen.swift */; };
+		008BB1911F05A3AA004D18A5 /* NoInternetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */; };
+		008BB1921F05A3AA004D18A5 /* FinalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022E7D41EF9A3E400EA7925 /* FinalScreen.swift */; };
+		008BB1931F05A3AA004D18A5 /* SubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E36401EF9F8150020DB27 /* SubmitView.swift */; };
+		008BB1941F05A3AA004D18A5 /* CheckBoxScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003E36421EF9FC150020DB27 /* CheckBoxScreen.swift */; };
+		008BB1951F05A3AA004D18A5 /* PersonalInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47BB1EF8630000E9AE06 /* PersonalInfoScreen.swift */; };
+		008BB1961F05A3AA004D18A5 /* TimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DDF1EF4606F007DEE77 /* TimeSelector.swift */; };
+		008BB1971F05A3AA004D18A5 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47CE1EF880EE00E9AE06 /* SubmitButton.swift */; };
+		008BB1981F05A3AA004D18A5 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47BD1EF863BC00E9AE06 /* StartButton.swift */; };
+		008BB1991F05A3AA004D18A5 /* ContinueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47C11EF869DC00E9AE06 /* ContinueButton.swift */; };
+		008BB19A1F05A3AA004D18A5 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F47C41EF86B5200E9AE06 /* BackButton.swift */; };
+		008BB19B1F05A3AA004D18A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DB01EF45EDF007DEE77 /* ViewController.swift */; };
+		008BB19C1F05A3AA004D18A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F3BA01F05A1E90058CCB4 /* AppDelegate.swift */; };
+		008BB19D1F05A3AA004D18A5 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022E7CE1EF99C0800EA7925 /* GlobalVariables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +62,8 @@
 
 /* Begin PBXFileReference section */
 		0022E7CE1EF99C0800EA7925 /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
-		0022E7D41EF9A3E400EA7925 /* FinalScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinalScreen.swift; path = ImportantObjects/FinalScreen.swift; sourceTree = "<group>"; };
+		0022E7D41EF9A3E400EA7925 /* FinalScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinalScreen.swift; path = GeneralInformation/FinalScreen.swift; sourceTree = "<group>"; };
 		002C0DAB1EF45EDF007DEE77 /* Wag Around Melrose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wag Around Melrose.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		002C0DAE1EF45EDF007DEE77 /* TextDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextDrawing.swift; path = Graphics/TextDrawing.swift; sourceTree = "<group>"; };
 		002C0DB01EF45EDF007DEE77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		002C0DB31EF45EDF007DEE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		002C0DB51EF45EDF007DEE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,16 +76,15 @@
 		002C0DCE1EF45EDF007DEE77 /* Wag_Around_MelroseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wag_Around_MelroseUITests.swift; sourceTree = "<group>"; };
 		002C0DD01EF45EDF007DEE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		002C0DDD1EF45FF2007DEE77 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = MainView/MainView.swift; sourceTree = "<group>"; };
-		002C0DDF1EF4606F007DEE77 /* TimeSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSelector.swift; sourceTree = "<group>"; };
-		003E36401EF9F8150020DB27 /* SubmitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitView.swift; path = ImportantObjects/SubmitView.swift; sourceTree = "<group>"; };
-		003E36421EF9FC150020DB27 /* CheckBoxScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckBoxScreen.swift; path = ImportantObjects/CheckBoxScreen.swift; sourceTree = "<group>"; };
-		003E364A1EFA0BB60020DB27 /* PriceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriceLoader.swift; path = ImportantObjects/PriceLoader.swift; sourceTree = "<group>"; };
-		004F47BB1EF8630000E9AE06 /* PersonalInfoScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonalInfoScreen.swift; path = ImportantObjects/PersonalInfoScreen.swift; sourceTree = "<group>"; };
-		004F47BD1EF863BC00E9AE06 /* StartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartButton.swift; path = ImportantObjects/StartButton.swift; sourceTree = "<group>"; };
-		004F47C11EF869DC00E9AE06 /* ContinueButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContinueButton.swift; path = ImportantObjects/ContinueButton.swift; sourceTree = "<group>"; };
+		002C0DDF1EF4606F007DEE77 /* TimeSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeSelector.swift; path = UserInfo/TimeSelector.swift; sourceTree = "<group>"; };
+		003E36401EF9F8150020DB27 /* SubmitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitView.swift; path = GeneralInformation/SubmitView.swift; sourceTree = "<group>"; };
+		003E36421EF9FC150020DB27 /* CheckBoxScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckBoxScreen.swift; path = UserInfo/CheckBoxScreen.swift; sourceTree = "<group>"; };
+		003E364A1EFA0BB60020DB27 /* PriceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriceLoader.swift; path = ServerSide/PriceLoader.swift; sourceTree = "<group>"; };
+		004F47BB1EF8630000E9AE06 /* PersonalInfoScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonalInfoScreen.swift; path = UserInfo/PersonalInfoScreen.swift; sourceTree = "<group>"; };
+		004F47BD1EF863BC00E9AE06 /* StartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartButton.swift; path = TransitionButtons/StartButton.swift; sourceTree = "<group>"; };
+		004F47C11EF869DC00E9AE06 /* ContinueButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContinueButton.swift; path = TransitionButtons/ContinueButton.swift; sourceTree = "<group>"; };
 		004F47C41EF86B5200E9AE06 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackButton.swift; path = TransitionButtons/BackButton.swift; sourceTree = "<group>"; };
-		004F47CE1EF880EE00E9AE06 /* SubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitButton.swift; path = ImportantObjects/SubmitButton.swift; sourceTree = "<group>"; };
-		005A9E8A1F059F5700F92664 /* TextDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextDrawing.swift; path = Graphics/TextDrawing.swift; sourceTree = "<group>"; };
+		004F47CE1EF880EE00E9AE06 /* SubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitButton.swift; path = TransitionButtons/SubmitButton.swift; sourceTree = "<group>"; };
 		0069D0461F059C4200B2DC8A /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckBox.swift; path = Graphics/CheckBox.swift; sourceTree = "<group>"; };
 		0069D0481F059C5000B2DC8A /* DogGraphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DogGraphic.swift; path = Graphics/DogGraphic.swift; sourceTree = "<group>"; };
 		0069D0491F059C5000B2DC8A /* InfoLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoLine.swift; path = Graphics/InfoLine.swift; sourceTree = "<group>"; };
@@ -99,9 +97,10 @@
 		0069D0591F059C6E00B2DC8A /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog.png; path = Graphics/Images/dog.png; sourceTree = "<group>"; };
 		0069D05A1F059C6E00B2DC8A /* submitButton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = submitButton.gif; path = Graphics/Images/submitButton.gif; sourceTree = "<group>"; };
 		0069D05B1F059C6E00B2DC8A /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked.png; path = Graphics/Images/unchecked.png; sourceTree = "<group>"; };
+		008BB1851F05A37E004D18A5 /* TextDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextDrawing.swift; path = Graphics/TextDrawing.swift; sourceTree = "<group>"; };
 		008F3BA01F05A1E90058CCB4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoInternetScreen.swift; path = ImportantObjects/NoInternetScreen.swift; sourceTree = "<group>"; };
-		00DFE5501F01A62500F616FD /* OldVersionScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldVersionScreen.swift; path = ImportantObjects/OldVersionScreen.swift; sourceTree = "<group>"; };
+		00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoInternetScreen.swift; path = GeneralInformation/NoInternetScreen.swift; sourceTree = "<group>"; };
+		00DFE5501F01A62500F616FD /* OldVersionScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldVersionScreen.swift; path = GeneralInformation/OldVersionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +186,6 @@
 				000E10651F05972F00A86739 /* GeneralInformation */,
 				000E10641F05971600A86739 /* UserInfo */,
 				004F47C31EF86B3200E9AE06 /* TransitionButtons */,
-				002C0DAE1EF45EDF007DEE77 /* TextDrawing.swift */,
 				002C0DB01EF45EDF007DEE77 /* ViewController.swift */,
 				008F3BA01F05A1E90058CCB4 /* AppDelegate.swift */,
 				002C0DB21EF45EDF007DEE77 /* Main.storyboard */,
@@ -236,7 +234,7 @@
 				0069D0461F059C4200B2DC8A /* CheckBox.swift */,
 				0069D0481F059C5000B2DC8A /* DogGraphic.swift */,
 				0069D0491F059C5000B2DC8A /* InfoLine.swift */,
-				005A9E8A1F059F5700F92664 /* TextDrawing.swift */,
+				008BB1851F05A37E004D18A5 /* TextDrawing.swift */,
 			);
 			name = Graphics;
 			sourceTree = "<group>";
@@ -407,29 +405,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				004077351F05A099004D14D8 /* SwiftyGifManager.swift in Sources */,
-				004077361F05A099004D14D8 /* UIImage+SwiftyGif.swift in Sources */,
-				004077371F05A099004D14D8 /* UIImageView+SwiftyGif.swift in Sources */,
-				004077381F05A099004D14D8 /* CheckBox.swift in Sources */,
-				004077391F05A099004D14D8 /* DogGraphic.swift in Sources */,
-				0040773A1F05A099004D14D8 /* InfoLine.swift in Sources */,
-				0040773C1F05A099004D14D8 /* PriceLoader.swift in Sources */,
-				0040773D1F05A099004D14D8 /* MainView.swift in Sources */,
-				0040773E1F05A099004D14D8 /* OldVersionScreen.swift in Sources */,
-				0040773F1F05A099004D14D8 /* NoInternetScreen.swift in Sources */,
-				004077401F05A099004D14D8 /* FinalScreen.swift in Sources */,
-				004077411F05A099004D14D8 /* SubmitView.swift in Sources */,
-				004077421F05A099004D14D8 /* CheckBoxScreen.swift in Sources */,
-				004077431F05A099004D14D8 /* PersonalInfoScreen.swift in Sources */,
-				004077441F05A099004D14D8 /* TimeSelector.swift in Sources */,
-				004077451F05A099004D14D8 /* SubmitButton.swift in Sources */,
-				004077461F05A099004D14D8 /* StartButton.swift in Sources */,
-				004077471F05A099004D14D8 /* ContinueButton.swift in Sources */,
-				004077481F05A099004D14D8 /* BackButton.swift in Sources */,
-				004077491F05A099004D14D8 /* TextDrawing.swift in Sources */,
-				0040774A1F05A099004D14D8 /* ViewController.swift in Sources */,
-				0040774B1F05A099004D14D8 /* GlobalVariables.swift in Sources */,
-				008F3BA11F05A1E90058CCB4 /* AppDelegate.swift in Sources */,
+				008BB1871F05A3AA004D18A5 /* SwiftyGifManager.swift in Sources */,
+				008BB1881F05A3AA004D18A5 /* UIImage+SwiftyGif.swift in Sources */,
+				008BB1891F05A3AA004D18A5 /* UIImageView+SwiftyGif.swift in Sources */,
+				008BB18A1F05A3AA004D18A5 /* CheckBox.swift in Sources */,
+				008BB18B1F05A3AA004D18A5 /* DogGraphic.swift in Sources */,
+				008BB18C1F05A3AA004D18A5 /* InfoLine.swift in Sources */,
+				008BB18D1F05A3AA004D18A5 /* TextDrawing.swift in Sources */,
+				008BB18E1F05A3AA004D18A5 /* PriceLoader.swift in Sources */,
+				008BB18F1F05A3AA004D18A5 /* MainView.swift in Sources */,
+				008BB1901F05A3AA004D18A5 /* OldVersionScreen.swift in Sources */,
+				008BB1911F05A3AA004D18A5 /* NoInternetScreen.swift in Sources */,
+				008BB1921F05A3AA004D18A5 /* FinalScreen.swift in Sources */,
+				008BB1931F05A3AA004D18A5 /* SubmitView.swift in Sources */,
+				008BB1941F05A3AA004D18A5 /* CheckBoxScreen.swift in Sources */,
+				008BB1951F05A3AA004D18A5 /* PersonalInfoScreen.swift in Sources */,
+				008BB1961F05A3AA004D18A5 /* TimeSelector.swift in Sources */,
+				008BB1971F05A3AA004D18A5 /* SubmitButton.swift in Sources */,
+				008BB1981F05A3AA004D18A5 /* StartButton.swift in Sources */,
+				008BB1991F05A3AA004D18A5 /* ContinueButton.swift in Sources */,
+				008BB19A1F05A3AA004D18A5 /* BackButton.swift in Sources */,
+				008BB19B1F05A3AA004D18A5 /* ViewController.swift in Sources */,
+				008BB19C1F05A3AA004D18A5 /* AppDelegate.swift in Sources */,
+				008BB19D1F05A3AA004D18A5 /* GlobalVariables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
