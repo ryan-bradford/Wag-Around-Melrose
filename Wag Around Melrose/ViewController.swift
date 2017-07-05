@@ -49,7 +49,6 @@ class ViewController: UIViewController {
 	}
 	
 	func setScales() {
-		print(self.view.frame.width)
 		GlobalVariables.Y_SCALE *= self.view.frame.height
 		GlobalVariables.X_SCALE *= self.view.frame.width
 		
@@ -84,8 +83,6 @@ class ViewController: UIViewController {
 			versionText = version
 		}
 		
-		print(versionText)
-		
 		var isFinished = false
 		var versionOld = false
 		var hasInternet = true
@@ -97,15 +94,12 @@ class ViewController: UIViewController {
 		request.httpBody = postString.data(using: .utf8)
 		let task = URLSession.shared.dataTask(with: request) { data, response, error in
 			guard let _ = data, error == nil else {
-				print("error=\(String(describing: error))")
 				isFinished = true
 				hasInternet = false
 				return
 			}
 			
 			if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {
-				print("statusCode should be 200, but is \(httpStatus.statusCode)")
-				print("response = \(String(describing: response))")
 				isFinished = true
 				hasInternet = false
 				return
@@ -118,7 +112,6 @@ class ViewController: UIViewController {
 				}
 				isFinished = true
 			}
-			print(responseString ?? "")
 		}
 		task.resume()
 		

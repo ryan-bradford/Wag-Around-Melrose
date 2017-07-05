@@ -236,7 +236,6 @@ public class MainView: UIView {
 		postString += "&phone=" + personalInfo.getPhoneNumber()
 		postString += "&cost=" + String(checkBoxes.getCost())
 		postString += "&length=" + String(checkBoxes.getLength())
-		print(postString)
 		
 		var request = URLRequest(url: URL(string: "https://rbradford.thaumavor.io/iOS_Programs/Wag_Around_Melrose/recieveWalk.php")!)
 		request.httpMethod = "POST"

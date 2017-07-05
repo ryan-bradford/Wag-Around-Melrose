@@ -10,13 +10,20 @@ import Foundation
 import UIKit
 
 public class TimeSelector: UIView {
-	
-	var selector: UIDatePicker!
+    
+    var minuteSelector: Selector!
+    //var hourSelector: UIDatePicker!
+	var daySelector: Selector!
 	var height = CGFloat(200*GlobalVariables.Y_SCALE)
-	
+    var months = Array<Month>()
+    var allDays = Array<Day>()
+    var currentDay = 0
+    
 	public override init(frame: CGRect) {
 		super.init(frame: frame)
-		self.initSelector()
+        self.loadTimes()
+		self.initDaySelector()
+        self.initMinuteSelector()
 		initInfoLine()
 	}
 	
@@ -24,20 +31,42 @@ public class TimeSelector: UIView {
 		super.init(coder: aDecoder)
 	}
 		
-	func initSelector() {
-		let width = CGFloat(300*GlobalVariables.X_SCALE)
-		let rect = CGRect(x: 0, y: 0, width: width, height: height)
-		selector = UIDatePicker(frame: rect)
+	func initDaySelector() {
 		
-		selector.minuteInterval = 15
-		
-		selector.minimumDate = Date(timeIntervalSinceNow: 1800)
-
-		self.addSubview(selector)
+        var days = Array<String>()
+        for x in months {
+            days.append(contentsOf: x.toStringArray())
+        }
+        
+        let width = CGFloat(150*GlobalVariables.X_SCALE)
+		daySelector = Selector(frame: CGRect(x: 0, y: 0, width: width, height: height), times: days)
+        daySelector.superScreen = self
+        
+		self.addSubview(daySelector)
 	}
+    
+    func initMinuteSelector() {
+        
+        print("hi")
+        let width = CGFloat(150*GlobalVariables.X_SCALE)
+        minuteSelector = Selector(frame: CGRect(x: 150, y: 0, width: width, height: height), times: allDays[currentDay].availableTimes)
+        
+        self.addSubview(minuteSelector)
+    }
+    
+    func updateMinuteSelector(newIndex: Int) {
+        minuteSelector.removeFromSuperview()
+        self.currentDay = newIndex
+        initMinuteSelector()
+    }
 	
 	func getDateAndTime() -> String {
-		return String(describing: selector.date)
+        let date = Date()
+        let calendar = Calendar.current
+        
+        let year = String(calendar.component(.year, from: date))
+        
+        return year + "-" + allDays[currentDay].toString() + " " + minuteSelector.getText()
 	}
 	
 	func initInfoLine() {
@@ -47,5 +76,36 @@ public class TimeSelector: UIView {
 		
 		self.addSubview(textDisplay)
 	}
+    
+    func loadTimes() {
+        var request = URLRequest(url: URL(string: "https://rbradford.thaumavor.io/iOS_Programs/Wag_Around_Melrose/getDates.php")!)
+        request.httpMethod = "GET"
+        var finished = false
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let _ = data, error == nil else {
+                return
+            }
+            
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {
+                finished = true
+                return
+            }
+            let responseString = String(data: data!, encoding: .utf8)
+            if(responseString != nil) {
+                let months = responseString?.characters.split { $0 == "!"}.map(String.init)
+                for x in 0 ..< months!.count where x % 2 == 0 {
+                    self.months.append(Month(month: Int((months?[x])!)!, toProcess: (months?[x+1])!))
+                }
+                for x in self.months {
+                    self.allDays.append(contentsOf: x.days)
+                }
+                finished = true
+            }
+        }
+        task.resume()
+        
+        while(!finished) {
+        }
+    }
 	
 }

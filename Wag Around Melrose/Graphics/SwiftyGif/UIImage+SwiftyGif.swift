@@ -97,7 +97,6 @@ public extension UIImage{
         do {
             calculateFrameDelay(try delayTimes(imageSource), levelOfIntegrity: levelOfIntegrity)
         } catch {
-            print("Could not determine delay times for GIF.")
             return
         }
         calculateFrameSize()
@@ -133,10 +132,8 @@ public extension UIImage{
             if let data = try? Data(contentsOf: url) {
                 setGifFromData(data,levelOfIntegrity: levelOfIntegrity)
             } else {
-                print("Error : Invalid GIF data for \(name).gif")
             }
         } else {
-            print("Error : Gif file \(name).gif not found")
         }
     }
     

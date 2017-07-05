@@ -22,14 +22,11 @@ public class PriceLoader {
 		request.httpBody = String("").data(using: .utf8)
 		let task = URLSession.shared.dataTask(with: request) { data, response, error in
 			guard let _ = data, error == nil else {
-				print("error=\(String(describing: error))")
 				isFinished = true
 				return
 			}
 			
 			if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {
-				print("statusCode should be 200, but is \(httpStatus.statusCode)")
-				print("response = \(String(describing: response))")
 				isFinished = true
 				return
 			}
@@ -44,7 +41,6 @@ public class PriceLoader {
 				GlobalVariables.LENGTH_THREE = Int((lines?[5])!)!
 				isFinished = true
 			}
-			print(responseString ?? "")
 		}
 		task.resume()
 		
