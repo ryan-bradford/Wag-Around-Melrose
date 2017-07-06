@@ -13,8 +13,10 @@ public class Day {
     var availableTimes: Array<String>
     var number: Int
     var month: Int
+    var year: Int
     
-    public init(number: Int, times: String, month: Int) {
+    public init(number: Int, times: String, month: Int, year: Int) {
+        self.year = year
         self.number = number
         self.month = month
         availableTimes = Array<String>()
@@ -24,9 +26,15 @@ public class Day {
     func processTimes(times: String) {
         let ranges = times.characters.split { $0 == ","}.map(String.init)
         for var range in ranges {
+            if(!range.contains("-")) {
+                break;
+            }
             let times = range.characters.split { $0 == "-"}.map(String.init)
             let firstTime = Int(times[0])
             let lastTime = Int(times[1])
+            if(firstTime! - lastTime! == 0) {
+                break;
+            }
             let num = (lastTime! - firstTime!)/15
             for x in 0 ..< num {
                 let minuteTotal = firstTime! + 15*x
@@ -37,13 +45,25 @@ public class Day {
                 if(minutes == 0) {
                     toAppend = toAppend + "0"
                 }
+                if(hours < 12) {
+                    toAppend = toAppend + " AM"
+                } else {
+                    toAppend = toAppend + " PM"
+                    if(hours > 12) {
+                        var newMinutes = String(minutes)
+                        if(minutes == 0) {
+                            newMinutes += "0"
+                        }
+                        toAppend = String(hours-12) + ":" + newMinutes + " PM"
+                    }
+                }
                 availableTimes.append(toAppend)
             }
         }
     }
     
     func toString() -> String {
-        return String(month) + "-" + String(number)
+        return String(year) + "-" + String(month) + "-" + String(number)
     }
     
 }

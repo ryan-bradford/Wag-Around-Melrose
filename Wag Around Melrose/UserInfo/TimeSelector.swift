@@ -46,10 +46,9 @@ public class TimeSelector: UIView {
 	}
     
     func initMinuteSelector() {
-        
-        print("hi")
         let width = CGFloat(150*GlobalVariables.X_SCALE)
         minuteSelector = Selector(frame: CGRect(x: 150, y: 0, width: width, height: height), times: allDays[currentDay].availableTimes)
+        minuteSelector.backgroundColor = UIColor.white
         
         self.addSubview(minuteSelector)
     }
@@ -61,13 +60,23 @@ public class TimeSelector: UIView {
     }
 	
 	func getDateAndTime() -> String {
-        let date = Date()
-        let calendar = Calendar.current
         
-        let year = String(calendar.component(.year, from: date))
-        
-        return year + "-" + allDays[currentDay].toString() + " " + minuteSelector.getText()
+        return allDays[currentDay].toString() + " " + getTimeSelected()
 	}
+    
+    func getTimeSelected() -> String {
+        var toReturn = minuteSelector.getText()
+        if(toReturn.contains("AM")) {
+            return toReturn.characters.split { $0 == " "}.map(String.init)[0]
+        } else {
+            let firstSplit = toReturn.characters.split { $0 == " "}.map(String.init)[0]
+            let secondSplit = firstSplit.characters.split { $0 == ":"}.map(String.init)
+            let hour = String(Int(secondSplit[0])! + 12)
+            let minute = secondSplit[1]
+            let toReturn = (hour + ":" + minute)
+            return toReturn
+        }
+    }
 	
 	func initInfoLine() {
 		let textBox = CGRect(x: 10, y: height + 25, width: self.frame.width - 20, height: 30)
@@ -92,6 +101,7 @@ public class TimeSelector: UIView {
             }
             let responseString = String(data: data!, encoding: .utf8)
             if(responseString != nil) {
+                print(responseString)
                 let months = responseString?.characters.split { $0 == "!"}.map(String.init)
                 for x in 0 ..< months!.count where x % 2 == 0 {
                     self.months.append(Month(month: Int((months?[x])!)!, toProcess: (months?[x+1])!))

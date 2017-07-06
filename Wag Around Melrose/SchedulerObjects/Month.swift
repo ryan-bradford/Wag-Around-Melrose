@@ -13,14 +13,23 @@ public class Month {
     var month: Int
     var monthName: String
     public var days = Array<Day>()
+    var year: Int
 
     public init(month: Int, toProcess: String) {
         self.month = month
         
-        let dateFormatter: DateFormatter = DateFormatter()
+        let date = Date()
+        let calendar = Calendar.current
         
+        year = Int(String(calendar.component(.year, from: date)))!
+        
+        let dateFormatter: DateFormatter = DateFormatter()
+        if(self.month == 13) {
+            self.month = 1
+            year += 1
+        }
         let months = dateFormatter.shortMonthSymbols
-        let monthSymbol = months?[month-1] // month - from your date components
+        let monthSymbol = months?[self.month-1] // month - from your date components
         
         monthName = monthSymbol!
         
@@ -30,12 +39,14 @@ public class Month {
     func processText(toProcess: String) {
         let days = toProcess.characters.split { $0 == "|"}.map(String.init)
         for x in 0 ..< days.count where x % 2 == 0 {
-            self.days.append(Day(number: Int(days[x])!, times: days[x+1], month: month))
+            let day = Day(number: Int(days[x])!, times: days[x+1], month: month, year: year)
+            if(day.availableTimes.count != 0) {
+                self.days.append(day)
+            }
         }
     }
     
     func toStringArray() -> Array<String> {
-        
         var toReturn = Array<String>()
         for i in days {
             toReturn.append(monthName + " " + String(i.number))
