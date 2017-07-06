@@ -37,8 +37,12 @@ public class Month {
     
     func processText(toProcess: String) {
         let days = toProcess.characters.split { $0 == "|"}.map(String.init)
+        var shift = 0
         for x in 0 ..< days.count where x % 2 == 0 {
-            let day = Day(number: Int(days[x])!, times: days[x+1], month: month, year: year)
+            if(days[x-shift].contains("-")) {
+                shift += 1
+            }
+            let day = Day(number: Int(days[x-shift])!, times: days[x+1-shift], month: month, year: year)
             if(day.availableTimes.count > 1) {
                 self.days.append(day)
             }

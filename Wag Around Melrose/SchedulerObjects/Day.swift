@@ -32,7 +32,7 @@ public class Day {
             let times = range.characters.split { $0 == "-"}.map(String.init)
             let firstTime = Int(times[0])
             let lastTime = Int(times[1])
-            if((lastTime! - firstTime!) <= 15) {
+            if((lastTime! - firstTime!) <= 0) {
                 break
             }
             let num = (lastTime! - firstTime!)/15

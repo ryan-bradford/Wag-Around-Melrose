@@ -12,12 +12,12 @@ import UIKit
 public class TimeSelector: UIView {
     
     var minuteSelector: Selector!
-    //var hourSelector: UIDatePicker!
 	var daySelector: Selector!
 	var height = CGFloat(200*GlobalVariables.Y_SCALE)
     var months = Array<Month>()
     var allDays = Array<Day>()
     var currentDay = 0
+    var currentTime = 0
     
 	public override init(frame: CGRect) {
 		super.init(frame: frame)
@@ -39,7 +39,7 @@ public class TimeSelector: UIView {
         }
         let width = CGFloat(150*GlobalVariables.X_SCALE)
 		daySelector = Selector(frame: CGRect(x: 0, y: 0, width: width, height: height), times: days)
-        daySelector.superScreen = self
+        daySelector.daySuperScreen = self
         
 		self.addSubview(daySelector)
 	}
@@ -48,7 +48,8 @@ public class TimeSelector: UIView {
         let width = CGFloat(150*GlobalVariables.X_SCALE)
         minuteSelector = Selector(frame: CGRect(x: 150, y: 0, width: width, height: height), times: allDays[currentDay].availableTimes)
         minuteSelector.backgroundColor = UIColor.white
-        
+        minuteSelector.timeSuperScreen = self
+
         self.addSubview(minuteSelector)
     }
     
@@ -57,14 +58,17 @@ public class TimeSelector: UIView {
         self.currentDay = newIndex
         initMinuteSelector()
     }
+    
+    func updateTimeSelector(newIndex: Int) {
+        self.currentTime = newIndex
+    }
 	
 	func getDateAndTime() -> String {
-        
         return allDays[currentDay].toString() + " " + getTimeSelected()
 	}
     
     func getTimeSelected() -> String {
-        var toReturn = minuteSelector.getText()
+        var toReturn = allDays[currentDay].availableTimes[currentTime]
         if(toReturn.contains("AM")) {
             return toReturn.characters.split { $0 == " "}.map(String.init)[0]
         } else {

@@ -24,7 +24,6 @@ public class MainView: UIView {
 	var selector: TimeSelector!
 	var personalInfo: PersonalInfoScreen!
 	var checkBoxes: CheckBoxScreen!
-	var postString = ""
 	
 	override public init(frame: CGRect) {
 		super.init(frame: frame)
@@ -62,6 +61,7 @@ public class MainView: UIView {
 	}
 	
 	func initTimeSelector() {
+        print("Hi")
 		let width = CGFloat(300*GlobalVariables.X_SCALE)
 		let height = CGFloat(300*GlobalVariables.Y_SCALE)
 		let rect = CGRect(x: (self.frame.width/2 - width/2) + self.frame.width, y: self.frame.height - height, width: width, height: height)
@@ -230,7 +230,7 @@ public class MainView: UIView {
 	
 	func submit() {
 		submitView.hideText()
-		postString += "date=" + selector.getDateAndTime()
+		var postString = "date=" + selector.getDateAndTime()
 		postString += "&name=" + personalInfo.getName()
 		postString += "&address=" + personalInfo.getAddress()
 		postString += "&phone=" + personalInfo.getPhoneNumber()
@@ -238,6 +238,7 @@ public class MainView: UIView {
 		postString += "&length=" + String(checkBoxes.getLength())
 		
 		var request = URLRequest(url: URL(string: "https://rbradford.thaumavor.io/iOS_Programs/Wag_Around_Melrose/recieveWalk.php")!)
+        print(postString)
 		request.httpMethod = "POST"
 		
 		request.httpBody = postString.data(using: .utf8)
