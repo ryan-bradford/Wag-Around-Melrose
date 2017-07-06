@@ -32,7 +32,6 @@ public class Month {
         let monthSymbol = months?[self.month-1] // month - from your date components
         
         monthName = monthSymbol!
-        
         processText(toProcess: toProcess)
     }
     
@@ -40,7 +39,7 @@ public class Month {
         let days = toProcess.characters.split { $0 == "|"}.map(String.init)
         for x in 0 ..< days.count where x % 2 == 0 {
             let day = Day(number: Int(days[x])!, times: days[x+1], month: month, year: year)
-            if(day.availableTimes.count != 0) {
+            if(day.availableTimes.count > 1) {
                 self.days.append(day)
             }
         }

@@ -37,7 +37,6 @@ public class TimeSelector: UIView {
         for x in months {
             days.append(contentsOf: x.toStringArray())
         }
-        
         let width = CGFloat(150*GlobalVariables.X_SCALE)
 		daySelector = Selector(frame: CGRect(x: 0, y: 0, width: width, height: height), times: days)
         daySelector.superScreen = self

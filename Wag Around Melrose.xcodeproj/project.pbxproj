@@ -44,6 +44,7 @@
 		009E24581F0D6C50005C6B79 /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E24571F0D6C50005C6B79 /* Selector.swift */; };
 		009E245B1F0D6D38005C6B79 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E245A1F0D6D38005C6B79 /* Day.swift */; };
 		009E245D1F0D6F3C005C6B79 /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E245C1F0D6F3C005C6B79 /* Month.swift */; };
+		009E245F1F0EF29C005C6B79 /* FileRW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E245E1F0EF29C005C6B79 /* FileRW.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		009E24571F0D6C50005C6B79 /* Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Selector.swift; path = "../../Bork!/ClientSide/iOS/Bork!/Bork!/Client/Selector.swift"; sourceTree = "<group>"; };
 		009E245A1F0D6D38005C6B79 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day.swift; path = SchedulerObjects/Day.swift; sourceTree = "<group>"; };
 		009E245C1F0D6F3C005C6B79 /* Month.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Month.swift; path = SchedulerObjects/Month.swift; sourceTree = "<group>"; };
+		009E245E1F0EF29C005C6B79 /* FileRW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileRW.swift; sourceTree = "<group>"; };
 		00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoInternetScreen.swift; path = GeneralInformation/NoInternetScreen.swift; sourceTree = "<group>"; };
 		00DFE5501F01A62500F616FD /* OldVersionScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldVersionScreen.swift; path = GeneralInformation/OldVersionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -200,6 +202,7 @@
 				002C0DB71EF45EDF007DEE77 /* LaunchScreen.storyboard */,
 				002C0DBA1EF45EDF007DEE77 /* Info.plist */,
 				0022E7CE1EF99C0800EA7925 /* GlobalVariables.swift */,
+				009E245E1F0EF29C005C6B79 /* FileRW.swift */,
 			);
 			path = "Wag Around Melrose";
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				008BB1931F05A3AA004D18A5 /* SubmitView.swift in Sources */,
 				008BB1941F05A3AA004D18A5 /* CheckBoxScreen.swift in Sources */,
 				008BB1951F05A3AA004D18A5 /* PersonalInfoScreen.swift in Sources */,
+				009E245F1F0EF29C005C6B79 /* FileRW.swift in Sources */,
 				008BB1961F05A3AA004D18A5 /* TimeSelector.swift in Sources */,
 				008BB1971F05A3AA004D18A5 /* SubmitButton.swift in Sources */,
 				009E245B1F0D6D38005C6B79 /* Day.swift in Sources */,

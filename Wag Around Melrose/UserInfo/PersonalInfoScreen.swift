@@ -33,35 +33,53 @@ public class PersonalInfoScreen: UIView, UITextFieldDelegate {
 	}
 	
 	func initNameLine() {
+        var text = "Name"
+        let readResult = FileRW.readFile(fileName: "name.txt")
+        if(readResult != nil) {
+            text = readResult!
+        }
 		let frame = CGRect(x: 0, y: 25, width: self.frame.width, height: self.frame.height/3 - 30)
-		name = InfoLine(frame: frame, text: "Name", editable: true)
+		name = InfoLine(frame: frame, text: text, editable: true)
 		name.textBox?.delegate = self
 		self.addSubview(name)
 	}
 	
 	func initAddressLine() {
+        var text = "Address"
+        let readResult = FileRW.readFile(fileName: "address.txt")
+        if(readResult != nil) {
+            text = readResult!
+        }
 		let frame = CGRect(x: 0, y: self.frame.height/4, width: self.frame.width, height: self.frame.height/3 - 5)
-		address = InfoLine(frame: frame, text: "Address", editable: true)
+		address = InfoLine(frame: frame, text: text, editable: true)
 		address.textBox?.delegate = self
 		self.addSubview(address)
 	}
 	
 	func initPhoneLine() {
+        var text = "Phone Number"
+        let readResult = FileRW.readFile(fileName: "phone.txt")
+        if(readResult != nil) {
+            text = readResult!
+        }
 		let frame = CGRect(x: 0, y: 2*self.frame.height/4, width: self.frame.width, height: self.frame.height/3 - 5)
-		phone = InfoLine(frame: frame, text: "Phone Number", editable: true)
+		phone = InfoLine(frame: frame, text: text, editable: true)
 		phone.textBox?.delegate = self
 		self.addSubview(phone)
 	}
 	
 	func getName() -> String {
+        FileRW.writeFile(fileName: "name.txt", contents: name.getText())
 		return name.getText()
 	}
 	
 	func getPhoneNumber() -> String {
+        FileRW.writeFile(fileName: "phone.txt", contents: phone.getText())
 		return phone.getText()
 	}
 	
 	func getAddress() -> String {
+        FileRW.writeFile(fileName: "address.txt", contents: address.getText())
 		return address.getText()
 	}
 	

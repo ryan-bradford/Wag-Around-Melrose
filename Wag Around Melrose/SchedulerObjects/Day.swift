@@ -27,13 +27,13 @@ public class Day {
         let ranges = times.characters.split { $0 == ","}.map(String.init)
         for var range in ranges {
             if(!range.contains("-")) {
-                break;
+                break
             }
             let times = range.characters.split { $0 == "-"}.map(String.init)
             let firstTime = Int(times[0])
             let lastTime = Int(times[1])
-            if(firstTime! - lastTime! == 0) {
-                break;
+            if((lastTime! - firstTime!) <= 15) {
+                break
             }
             let num = (lastTime! - firstTime!)/15
             for x in 0 ..< num {
