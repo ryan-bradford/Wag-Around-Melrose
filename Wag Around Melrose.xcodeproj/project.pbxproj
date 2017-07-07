@@ -41,10 +41,10 @@
 		008BB19B1F05A3AA004D18A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002C0DB01EF45EDF007DEE77 /* ViewController.swift */; };
 		008BB19C1F05A3AA004D18A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008F3BA01F05A1E90058CCB4 /* AppDelegate.swift */; };
 		008BB19D1F05A3AA004D18A5 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022E7CE1EF99C0800EA7925 /* GlobalVariables.swift */; };
-		009E24581F0D6C50005C6B79 /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E24571F0D6C50005C6B79 /* Selector.swift */; };
 		009E245B1F0D6D38005C6B79 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E245A1F0D6D38005C6B79 /* Day.swift */; };
 		009E245D1F0D6F3C005C6B79 /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E245C1F0D6F3C005C6B79 /* Month.swift */; };
 		009E245F1F0EF29C005C6B79 /* FileRW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E245E1F0EF29C005C6B79 /* FileRW.swift */; };
+		009E24641F100F27005C6B79 /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E24631F100F27005C6B79 /* Selector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,10 +103,11 @@
 		0069D05B1F059C6E00B2DC8A /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked.png; path = Graphics/Images/unchecked.png; sourceTree = "<group>"; };
 		008BB1851F05A37E004D18A5 /* TextDrawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextDrawing.swift; path = Graphics/TextDrawing.swift; sourceTree = "<group>"; };
 		008F3BA01F05A1E90058CCB4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		009E24571F0D6C50005C6B79 /* Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Selector.swift; path = "../../Bork!/ClientSide/iOS/Bork!/Bork!/Client/Selector.swift"; sourceTree = "<group>"; };
 		009E245A1F0D6D38005C6B79 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day.swift; path = SchedulerObjects/Day.swift; sourceTree = "<group>"; };
 		009E245C1F0D6F3C005C6B79 /* Month.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Month.swift; path = SchedulerObjects/Month.swift; sourceTree = "<group>"; };
 		009E245E1F0EF29C005C6B79 /* FileRW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileRW.swift; sourceTree = "<group>"; };
+		009E24601F100B4A005C6B79 /* Wag Around Melrose.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Wag Around Melrose.entitlements"; sourceTree = "<group>"; };
+		009E24631F100F27005C6B79 /* Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Selector.swift; path = "../../../../../../../../.Trash/Bork!/ClientSide/iOS/Bork!/Bork!/Client/Selector.swift"; sourceTree = "<group>"; };
 		00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoInternetScreen.swift; path = GeneralInformation/NoInternetScreen.swift; sourceTree = "<group>"; };
 		00DFE5501F01A62500F616FD /* OldVersionScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldVersionScreen.swift; path = GeneralInformation/OldVersionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -188,6 +189,7 @@
 		002C0DAD1EF45EDF007DEE77 /* Wag Around Melrose */ = {
 			isa = PBXGroup;
 			children = (
+				009E24601F100B4A005C6B79 /* Wag Around Melrose.entitlements */,
 				009E24591F0D6D1D005C6B79 /* SchedulerObjects */,
 				0069D0451F059C2E00B2DC8A /* Graphics */,
 				000E10671F0597CE00A86739 /* ServerSide */,
@@ -275,7 +277,7 @@
 		009E24591F0D6D1D005C6B79 /* SchedulerObjects */ = {
 			isa = PBXGroup;
 			children = (
-				009E24571F0D6C50005C6B79 /* Selector.swift */,
+				009E24631F100F27005C6B79 /* Selector.swift */,
 				009E245A1F0D6D38005C6B79 /* Day.swift */,
 				009E245C1F0D6F3C005C6B79 /* Month.swift */,
 			);
@@ -352,6 +354,11 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 637YQRHJ3C;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					002C0DBE1EF45EDF007DEE77 = {
 						CreatedOnToolsVersion = 8.3;
@@ -427,7 +434,6 @@
 			files = (
 				008BB1871F05A3AA004D18A5 /* SwiftyGifManager.swift in Sources */,
 				008BB1881F05A3AA004D18A5 /* UIImage+SwiftyGif.swift in Sources */,
-				009E24581F0D6C50005C6B79 /* Selector.swift in Sources */,
 				008BB1891F05A3AA004D18A5 /* UIImageView+SwiftyGif.swift in Sources */,
 				008BB18A1F05A3AA004D18A5 /* CheckBox.swift in Sources */,
 				008BB18B1F05A3AA004D18A5 /* DogGraphic.swift in Sources */,
@@ -437,6 +443,7 @@
 				008BB18F1F05A3AA004D18A5 /* MainView.swift in Sources */,
 				008BB1901F05A3AA004D18A5 /* OldVersionScreen.swift in Sources */,
 				008BB1911F05A3AA004D18A5 /* NoInternetScreen.swift in Sources */,
+				009E24641F100F27005C6B79 /* Selector.swift in Sources */,
 				009E245D1F0D6F3C005C6B79 /* Month.swift in Sources */,
 				008BB1921F05A3AA004D18A5 /* FinalScreen.swift in Sources */,
 				008BB1931F05A3AA004D18A5 /* SubmitView.swift in Sources */,
@@ -606,6 +613,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Wag Around Melrose/Wag Around Melrose.entitlements";
 				DEVELOPMENT_TEAM = 637YQRHJ3C;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Wag Around Melrose/Info.plist";
@@ -621,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Wag Around Melrose/Wag Around Melrose.entitlements";
 				DEVELOPMENT_TEAM = 637YQRHJ3C;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Wag Around Melrose/Info.plist";

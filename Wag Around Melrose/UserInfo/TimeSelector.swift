@@ -37,7 +37,7 @@ public class TimeSelector: UIView {
         for x in months {
             days.append(contentsOf: x.toStringArray())
         }
-        let width = CGFloat(150*GlobalVariables.X_SCALE)
+        let width = CGFloat(self.frame.width/2)
 		daySelector = Selector(frame: CGRect(x: 0, y: 0, width: width, height: height), times: days)
         daySelector.daySuperScreen = self
         
@@ -45,8 +45,8 @@ public class TimeSelector: UIView {
 	}
     
     func initMinuteSelector() {
-        let width = CGFloat(150*GlobalVariables.X_SCALE)
-        minuteSelector = Selector(frame: CGRect(x: 150, y: 0, width: width, height: height), times: allDays[currentDay].availableTimes)
+        let width = CGFloat(self.frame.width/2)
+        minuteSelector = Selector(frame: CGRect(x: self.frame.width/2, y: 0, width: width, height: height), times: allDays[currentDay].availableTimes)
         minuteSelector.backgroundColor = UIColor.white
         minuteSelector.timeSuperScreen = self
 
@@ -104,7 +104,6 @@ public class TimeSelector: UIView {
             }
             let responseString = String(data: data!, encoding: .utf8)
             if(responseString != nil) {
-                print(responseString)
                 let months = responseString?.characters.split { $0 == "!"}.map(String.init)
                 for x in 0 ..< months!.count where x % 2 == 0 {
                     self.months.append(Month(month: Int((months?[x])!)!, toProcess: (months?[x+1])!))
