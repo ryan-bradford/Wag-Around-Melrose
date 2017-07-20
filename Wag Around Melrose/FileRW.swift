@@ -11,6 +11,13 @@ import Foundation
 public class FileRW {
     
     public static func readFile(fileName: String) -> String? {
+		let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
+		let url = NSURL(fileURLWithPath: path)
+		let filePath = url.appendingPathComponent(fileName)?.path
+		let fileManager = FileManager.default
+		if !fileManager.fileExists(atPath: filePath!) {
+			return nil
+		}
         let file = fileName //this is the file. we will write to and read from it
         
         if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {

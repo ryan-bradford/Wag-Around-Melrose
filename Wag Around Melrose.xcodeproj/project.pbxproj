@@ -106,8 +106,7 @@
 		009E245A1F0D6D38005C6B79 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day.swift; path = SchedulerObjects/Day.swift; sourceTree = "<group>"; };
 		009E245C1F0D6F3C005C6B79 /* Month.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Month.swift; path = SchedulerObjects/Month.swift; sourceTree = "<group>"; };
 		009E245E1F0EF29C005C6B79 /* FileRW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileRW.swift; sourceTree = "<group>"; };
-		009E24601F100B4A005C6B79 /* Wag Around Melrose.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Wag Around Melrose.entitlements"; sourceTree = "<group>"; };
-		009E24631F100F27005C6B79 /* Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Selector.swift; path = "../../../../../../../../.Trash/Bork!/ClientSide/iOS/Bork!/Bork!/Client/Selector.swift"; sourceTree = "<group>"; };
+		009E24631F100F27005C6B79 /* Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Selector.swift; path = SchedulerObjects/Selector.swift; sourceTree = "<group>"; };
 		00DFE54E1F01A27500F616FD /* NoInternetScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoInternetScreen.swift; path = GeneralInformation/NoInternetScreen.swift; sourceTree = "<group>"; };
 		00DFE5501F01A62500F616FD /* OldVersionScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OldVersionScreen.swift; path = GeneralInformation/OldVersionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,7 +188,6 @@
 		002C0DAD1EF45EDF007DEE77 /* Wag Around Melrose */ = {
 			isa = PBXGroup;
 			children = (
-				009E24601F100B4A005C6B79 /* Wag Around Melrose.entitlements */,
 				009E24591F0D6D1D005C6B79 /* SchedulerObjects */,
 				0069D0451F059C2E00B2DC8A /* Graphics */,
 				000E10671F0597CE00A86739 /* ServerSide */,
@@ -356,7 +354,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -613,7 +611,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Wag Around Melrose/Wag Around Melrose.entitlements";
 				DEVELOPMENT_TEAM = 637YQRHJ3C;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Wag Around Melrose/Info.plist";
@@ -629,7 +626,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Wag Around Melrose/Wag Around Melrose.entitlements";
 				DEVELOPMENT_TEAM = 637YQRHJ3C;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Wag Around Melrose/Info.plist";
